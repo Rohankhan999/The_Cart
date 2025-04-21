@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{ fontFamily: 'Poppins, sans-serif' }}>
+    <nav className="navbar navbar-expand-lg navbar-dark " style={{ fontFamily: 'Poppins, sans-serif', backgroundColor:"#161615" }}>
       <div className="container-fluid">
         <h1 className="navbar-brand" style={{ color: "white" , fontSize:"28px" ,fontWeight:"900"}}>The_Cart</h1>
         
