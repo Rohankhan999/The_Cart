@@ -57,13 +57,13 @@ function Footer() {
       </div>
 
       <div>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+        <a href="https://instagram.com/lord._.rk" target="_blank" rel="noreferrer">
           <FaInstagram style={iconStyle} />
         </a>
-        <a href="https://github.com" target="_blank" rel="noreferrer">
+        <a href="https://github.com/Rohankhan999" target="_blank" rel="noreferrer">
           <FaGithub style={iconStyle} />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/muhammad-rohan-32317129b/" target="_blank" rel="noreferrer">
           <FaLinkedin style={iconStyle} />
         </a>
       </div>
