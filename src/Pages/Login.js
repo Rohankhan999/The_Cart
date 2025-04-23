@@ -1,8 +1,13 @@
 import React from "react";
+import Footer from "../Components/Footer/Footer";
+import Carousel from "../Components/Carousel/Carousel";
 
 const Login = () => {
   return (
-    <div className="container d-flex align-items-center justify-content-center min-vh-100">
+    <div>
+    <Carousel/>
+    <h1 className='text-center pt-5' style={{backgroundColor: "#212529" , margin:"0px" , color:"white"}}>The Cart - <span style={{color:"#0D6EFD"}}>Login</span></h1>
+    <div className="d-flex align-items-center justify-content-center min-vh-100" style={{backgroundColor: "#212529"}} >
       <div className="card shadow-lg p-4" style={{ maxWidth: "400px", width: "100%" }}>
         <h2 className="text-center mb-4">Welcome Back</h2>
         <form>
@@ -27,6 +32,8 @@ const Login = () => {
           Don't have an account? <a href="/signup">Sign Up</a>
         </p>
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 };

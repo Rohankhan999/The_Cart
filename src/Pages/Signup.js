@@ -7,7 +7,7 @@ const Signup = () => {
   <div>
     
   <Carousel/>
-  <h1 className='text-center pt-5' style={{backgroundColor: "#212529" , margin:"0px" , color:"#0D6EFD"}}>Sign Up</h1>
+  <h1 className='text-center pt-5' style={{backgroundColor: "#212529" , margin:"0px" , color:"white"}}>The Cart - <span style={{color:"#0D6EFD"}}>SignUp</span></h1>
   <div className="pt-5 pb-5 d-flex align-items-center justify-content-center min-vh-100" style={{ backgroundColor: "#212529" }}>
     
   <div className="card shadow-lg p-4" style={{ maxWidth: "400px", width: "100%" }}>
