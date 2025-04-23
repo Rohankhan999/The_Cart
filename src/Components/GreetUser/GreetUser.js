@@ -41,7 +41,7 @@ const GreetUser = () => {
   return (
     <div>
             <section style={{ backgroundColor: "#212529", color: "whitesmoke", fontFamily: "poppins", textAlign: "center", fontWeight: "900", margin: "0px" , paddingBottom:"20px" }}>
-        <h1 style={{ paddingTop: "30px" }}>Welcome to <span style={{ color: "yellow", fontWeight: "900" }}>The_Cart</span></h1>
+        <h1 style={{ paddingTop: "30px" }}>Welcome to <span className='fw-bold' style={{ color: "#0d6efd", fontWeight: "900" }}>The_Cart</span></h1>
         <p style={{ padding: "15px", textTransform: "capitalize", fontSize: "22px" }}>"Welcome to our online store, Rohan! We’re excited to have you here. Explore a wide range of products at amazing prices, carefully selected to fit your needs. Whether you’re shopping for the latest trends, exclusive deals, or unique gifts, we’ve got something for everyone. Start browsing now and enjoy a seamless shopping experience!"</p>
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
           {/* Featured Products Card */}

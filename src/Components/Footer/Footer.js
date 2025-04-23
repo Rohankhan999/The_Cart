@@ -42,11 +42,11 @@ function Footer() {
 
   return (
     <footer style={footerStyle}>
-        <h5 style={{marginBottom:"20px"}}>The Cart.co </h5>
+      <h5 style={{ marginBottom: "20px" }}>The Cart.co </h5>
       <div style={navStyle}>
         <a href="/login" style={linkStyle}>Login</a>
         <a href="/signup" style={linkStyle}>Signup</a>
-        <a href="/home" style={linkStyle}>Home</a>
+        <a href="/" style={linkStyle}>Home</a>
         <a href="/dashboard" style={linkStyle}>Dashboard</a>
         <a href="/profile" style={linkStyle}>Profile</a>
         <a href="/about" style={linkStyle}>About</a>
