@@ -56,10 +56,10 @@ const Pricing = () => {
       <Carousel/>
     <div className="text-white" style={{backgroundColor:"#212529"}}>
       <h2 className="text-center mb-4 fw-bold pt-5 pb-5">Best Deals from <span style={{color:"#0d6efd"}}>The Mart</span></h2>
-      <div  style={{display:"flex" , justifyContent:"space-around" , gap:"30px" , flexWrap:"wrap" , paddingBottom:"30px"}}>
+      <div  style={{display:"flex" , justifyContent:"center" , gap:"30px" , flexWrap:"wrap" , paddingBottom:"30px"}}>
         {pricingData.map((item, index) => (
           <div className="col-md-4 col-sm-6" key={index}>
-            <div className="card h-100 shadow text-center">
+            <div className="card h-100 w-100 shadow text-center">
               <div className="card-body">
                 <h5 className="card-title">{item.title}</h5>
                 <h3 className="text-primary">{item.price}</h3>
